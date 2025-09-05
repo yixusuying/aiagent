@@ -14,7 +14,7 @@
 # API接口规范
 
 ## 后端代理配置
-- 后端服务地址：http://40.162.42.130:9063
+- 后端服务地址：yourapi.com/api
 - 前端代理配置：所有 `/api/*` 请求会被代理到后端服务，保留 `/api` 前缀
 - 身份验证：使用HTTP-only Cookie机制，Cookie名称为 `access_token`，有效期24小时
 - 注意：后端API期望完整路径包含 `/api` 前缀（如：`/api/users/login`）
